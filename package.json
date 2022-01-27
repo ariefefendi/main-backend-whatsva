@@ -1,0 +1,31 @@
+{
+  "name": "testlib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "body-parser": "^1.19.0",
+    "child_process": "^1.0.2",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "got": "^11.8.2",
+    "mime-types": "^2.1.32",
+    "mysql": "^2.18.1",
+    "node-cron": "^3.0.0",
+    "path": "^0.12.7",
+    "types_test": "^1.0.0",
+    "whatsvamd": "^1.0.6",
+    "ws": "^7.5.5"
+  },
+  "devDependencies": {
+    "@types/mime-types": "^2.1.1"
+  }
+}

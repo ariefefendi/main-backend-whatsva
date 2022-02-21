@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 global.session = []
 global.session_connection = []
 global.data_session = []
-global.domain_server = 'http://servicewa.whusnet.com/';
+global.domain_server = 'http://domain';
 
 global.myclient = []
 global.midomain = []
@@ -29,9 +29,9 @@ app.use('/assets', express.static(__dirname + '/files'));
 
 var db_config = {
     host: 'localhost',
-    user: 'whusnet_whatsva',
-    password: 'W*yw358en',
-    database: 'db_backend_whatsva',
+    user: 'user',
+    password: '',
+    database: 'db_name',
     charset: "utf8mb4"
 };
 function handleDisconnect() {

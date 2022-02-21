@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 global.session = []
 global.session_connection = []
 global.data_session = []
-global.domain_server = 'http://localhost:8081';
+global.domain_server = 'http://servicewa.whusnet.com/';
 
 global.myclient = []
 global.midomain = []

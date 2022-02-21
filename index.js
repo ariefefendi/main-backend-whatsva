@@ -29,9 +29,9 @@ app.use('/assets', express.static(__dirname + '/files'));
 
 var db_config = {
     host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'whatsva_md_beta',
+    user: 'whusnet_whatsva',
+    password: 'W*yw358en',
+    database: 'db_backend_whatsva',
     charset: "utf8mb4"
 };
 function handleDisconnect() {
